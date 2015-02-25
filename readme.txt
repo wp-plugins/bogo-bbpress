@@ -24,10 +24,13 @@ Say your default language BBPress is located at `/forums/` and you have German a
 
 == Frequently Asked Questions ==
 
-= The Bogo language switcher widget/shortcode is not working for BBPress pages =
-That is correct, Bogo does not currently support this. Please link manually for the time being.
+n/a
 
 == Changelog ==
+
+= 3.0 =
+
+* added support for language switcher
 
 = 2.0 =
 
