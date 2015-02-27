@@ -71,8 +71,8 @@ function bogo_bbpress_fix_language_switcher_links( $output ) {
 		$item_locale = str_replace( '-', '_', $item_locale_css);
 		
 		// skip item belonging to current locale
-		$current_locale = get_query_var( 'lang' );
-		if ( $current_locale == $item_locale ) {
+		$current_lang = get_query_var( 'lang' );
+		if ( $current_lang == $item_lang ) {
 			continue;
 		}
 
