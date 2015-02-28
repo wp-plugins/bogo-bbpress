@@ -18,7 +18,7 @@ Say your default language BBPress is located at `/forums/` and you have German a
 
 == Installation ==
 
-1. Install [Bogo](https://wordpress.org/plugins/bogo/) and [BBPress](https://wordpress.org/plugins/bbpress/)
+1. Install [Bogo](https://wordpress.org/plugins/bogo/), BBPress](https://wordpress.org/plugins/bbpress/) and [BogoXLib](https://wordpress.org/plugins/bogoxlib/)
 2. Install [BBPress language files](http://codex.bbpress.org/bbpress-in-your-language/)
 3. Install this plugin
 
@@ -30,8 +30,9 @@ n/a
 
 = 3.0 =
 
-* added support for language switcher (requires bogo > 2.4.2 to work)
+* added support for Bogo language switcher (requires Bogo > 2.4.2 to work)
 * added email notification translation
+* now using BogoXLib
 
 = 2.0 =
 

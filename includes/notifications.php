@@ -230,7 +230,7 @@ function bogobbp_translate_notification_messages( $users, $author_name, $content
 				$translated_messages[$locale][$type] = str_replace( $tokens, $replacements, $translation );
 			}
 			$translated_messages[$locale][$type] = str_replace( '{{link}}',
-					bogocomm_localize_url( $url, $locale ),
+					bogoxlib_localize_url_using_locale( $url, $locale ),
 					$translated_messages[$locale][$type] );
 		}
 	}
