@@ -30,7 +30,8 @@ n/a
 
 = 3.0 =
 
-* added support for language switcher
+* added support for language switcher (requires bogo > 2.4.2 to work)
+* added email notification translation
 
 = 2.0 =
 

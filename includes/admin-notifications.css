@@ -1,0 +1,38 @@
+#bogobbp-notifications h1 {
+	margin-bottom: 1.5em;
+}
+#bogobbp-notifications p.success {
+	color: green;
+	font-size: 1.5em;
+}
+#bogobbp-notifications p.failure {
+	color: red;
+	font-size: 1.5em;	
+}
+#bogobbp-notifications table {
+	border-collapse: collapse;
+}
+#bogobbp-notifications th { 
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+#bogobbp-notifications tr {
+	height: 100%;
+}
+#bogobbp-notifications td { 
+	padding: 10px;
+	width: 400px;
+}
+#bogobbp-notifications table input {
+	width: 100%;
+}
+#bogobbp-notifications table textarea {
+	font-size: 13px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 300px;
+}
+#bogobbp-notifications p.tokens_explanation {
+	margin-bottom: 30px;
+	font-weight: bold;
+}
