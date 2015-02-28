@@ -1,5 +1,7 @@
 <?php
 
+define( 'BOGOCOMM_FILTERS', true );
+
 add_filter( 'bogo_language_switcher', 'bogocomm_fix_language_switcher_links' );
 function bogocomm_fix_language_switcher_links( $output ) {
 

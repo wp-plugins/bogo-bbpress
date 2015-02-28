@@ -1,5 +1,7 @@
 <?php
 
+define( 'BOGOCOMM_FUNCTIONS', true );
+
 function bogocomm_get_site_path() {
 	$parts = parse_url( site_url() );
 	if ( !isset( $parts['path'] ) ) {
