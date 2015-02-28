@@ -57,4 +57,12 @@ function bogobbp_insert_rewrite_rules( $rules ) {
 	return $newrules + $rules;
 }
 
+add_filter( 'bogo_language_switcher', 'bogobbp_fix_language_switcher_links' );
+function bogobbp_fix_language_switcher_links( $output ) {
+	if ( is_bbpress() ) {
+		return bogoxlib_fix_language_switcher_links( $output );
+	}
+	return $output;
+}
+
 ?>
