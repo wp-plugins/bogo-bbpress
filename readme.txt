@@ -16,7 +16,7 @@ Make your multilingual WordPress site have multilingual Forums, with Bogo and BB
 
 Say your default language BBPress is located at `/forums/` and you have German and Spanish translations of your website, then the localized BBPress versions can be viewed at `/de/forums/` and `/es/forums/` respectively.
 
-All email notifications are localized to the language the user set in their profile. Also localized URLs contained in emails when appropriate.
+All email notifications are localized to the language the user set in their profile. Also localizes URLs contained in emails where appropriate.
 
 Development status: This plugin was developed because I thought it was a solution to my problem. It wasn't. Turns out what I really needed was a multisite setup with separate languages and BP_ENABLE_MULTIBLOG enabled. When I found out, I was close the version 3.0 release of Bogo BuddyPress, so I finished up and released it. Please understand that I am busy with other projects now, do not rely on my support or maintenance of this plugin. If you fix a bug and send me a patch, I will gladly apply it. If you pay good money and I've got some time, I might fix or add something for you. Other than that, you're on your own.
 
