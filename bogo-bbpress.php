@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Bogo BBPress
-Description: Make Bogo work with BBPress
+Plugin Name: Bogo bbPress
+Description: Make Bogo work with bbPress
 Plugin URI: http://wordpress.org/extend/plugins/bogo-bbpress/
 Author: Markus Echterhoff
 Author URI: http://www.markusechterhoff.com
