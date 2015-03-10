@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Bogo BBPress
-Description: Make Bogo work with BBPress
+Plugin Name: Bogo bbPress
+Description: Make Bogo work with bbPress
 Plugin URI: http://wordpress.org/extend/plugins/bogo-bbpress/
 Author: Markus Echterhoff
 Author URI: http://www.markusechterhoff.com
@@ -15,7 +15,7 @@ require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 add_action( 'admin_notices', 'bogobbp_bogoxlib_check' );
 function bogobbp_bogoxlib_check() {
 	if ( !is_plugin_active( 'bogoxlib/bogoxlib.php' ) ) {
-		echo '<div class="error"><p>Bogo BBPress requires BogoXLib to work. <a href="' . esc_url( network_admin_url('plugin-install.php?tab=plugin-information&plugin=bogoxlib' . '&TB_iframe=true&width=600&height=550' ) ) . '" class="thickbox" title="More info about BogoXLib">Install BogoXLib</a>, activate it and then re-activate Bogo BBPress. <b>Deactivated</b>.</p></div>';
+		echo '<div class="error"><p>Bogo bbPress requires BogoXLib to work. <a href="' . esc_url( network_admin_url('plugin-install.php?tab=plugin-information&plugin=bogoxlib' . '&TB_iframe=true&width=600&height=550' ) ) . '" class="thickbox" title="More info about BogoXLib">Install BogoXLib</a>, activate it and then re-activate Bogo bbPress. <b>Deactivated</b>.</p></div>';
 		deactivate_plugins( 'bogo-bbpress/bogo-bbpress.php' );
 	}
 }
