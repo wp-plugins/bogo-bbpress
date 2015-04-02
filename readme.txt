@@ -22,7 +22,7 @@ Development status: This plugin was developed because I thought it was a solutio
 
 == Installation ==
 
-1. Install [Bogo](https://wordpress.org/plugins/bogo/), bbPress](https://wordpress.org/plugins/bbpress/) and [BogoXLib](https://wordpress.org/plugins/bogoxlib/)
+1. Install [Bogo](https://wordpress.org/plugins/bogo/), [bbPress](https://wordpress.org/plugins/bbpress/) and [BogoXLib](https://wordpress.org/plugins/bogoxlib/)
 2. Install [bbPress language files](http://codex.bbpress.org/bbpress-in-your-language/)
 3. Install this plugin
 
