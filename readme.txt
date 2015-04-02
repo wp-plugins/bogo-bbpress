@@ -4,7 +4,7 @@ Donate link: http://www.markusechterhoff.com/donation/
 Tags: bogo, bbpress
 Requires at least: 4.0
 Tested up to: 4.1.1
-Stable tag: 3.0
+Stable tag: 3.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,6 +31,10 @@ Development status: This plugin was developed because I thought it was a solutio
 n/a
 
 == Changelog ==
+
+= 3.1 =
+
+* updated to work with BogoXLib 1.1
 
 = 3.0 =
 

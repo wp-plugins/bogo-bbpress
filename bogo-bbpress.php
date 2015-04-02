@@ -5,7 +5,7 @@ Description: Make Bogo work with bbPress
 Plugin URI: http://wordpress.org/extend/plugins/bogo-bbpress/
 Author: Markus Echterhoff
 Author URI: http://www.markusechterhoff.com
-Version: 3.0
+Version: 3.1
 License: GPLv3 or later
 */
 
@@ -55,13 +55,12 @@ function bogobbp_insert_rewrite_rules( $rules ) {
 
 	return $newrules + $rules;
 }
-
-add_filter( 'bogo_language_switcher', 'bogobbp_fix_language_switcher_links' );
-function bogobbp_fix_language_switcher_links( $output ) {
+add_filter( 'bogo_language_switcher_links', 'bogobbp_fix_language_switcher_links', 10, 2 );
+function bogobbp_fix_language_switcher_links( $links, $args ) {
 	if ( is_bbpress() ) {
-		return bogoxlib_fix_language_switcher_links( $output );
+		return bogoxlib_fix_language_switcher_links( $links );
 	}
-	return $output;
+	return $links;
 }
 
 add_action( 'template_redirect', 'bogobbp_redirect_to_localized_url', 9 );
